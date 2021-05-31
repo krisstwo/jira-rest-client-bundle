@@ -1,0 +1,21 @@
+{
+    "name": "krisstwo/jira-rest-client-bundle",
+    "description": "A bundle to integrate lesstif/php-jira-rest-client in Symfony framework",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed KRISTOU",
+            "email": "krisstwo@gmail.com"
+        }
+    ],
+    "require": {
+        "lesstif/php-jira-rest-client": "^2.5",
+        "symfony/http-kernel": "^4.4",
+        "symfony/dependency-injection": "^4.4",
+        "symfony/config": "^4.4"
+    },
+    "autoload": {
+        "psr-4": { "Krisstwo\\JiraRestClientBundle\\": "src/" }
+    }
+}

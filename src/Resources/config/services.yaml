@@ -1,0 +1,10 @@
+services:
+    jira_rest_client.configuration:
+        class: JiraRestApi\Configuration\ArrayConfiguration
+
+    jira_rest_client.issue:
+        class: JiraRestApi\Issue\IssueService
+        arguments:
+            - '@jira_rest_client.configuration'
+
+    JiraRestApi\Issue\IssueService: '@jira_rest_client.issue'

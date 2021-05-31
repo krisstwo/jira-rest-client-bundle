@@ -1,0 +1,11 @@
+vendor
+
+###> vscode ###
+*.code-workspace
+.vscode
+.history
+###< vscode ###
+
+###> PhpStorm ###
+.idea
+###< PhpStorm ###
